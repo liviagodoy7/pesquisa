@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa sobre Python e Hospedagem</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Explorando Python e Hospedagem Web</h1>
+            <p>Comunicação entre Frontend e Backend</p>
+        </div>
+    </header>
+
+    <div class="container">
+    
+        <div class="welcome-message">
+            Olá, Bem-vindo à minha pesquisa sobre Python e hospedagem web.
+        </div>
+       
+
+        <div class="content-section">
+            <h2>O que é Python?</h2>
+            <p>Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi criada por Guido van Rossum e lançada pela primeira vez em 1991.</p>
+            
+            <div class="highlight">
+                <p>Python se destaca por sua sintaxe clara e legível, que prioriza a facilidade de uso e a produtividade do programador. É uma linguagem versátil que pode ser usada para uma variedade de aplicações, desde desenvolvimento web até análise de dados e inteligência artificial.</p>
+            </div>
+            
+            <p class="source">Fonte: <a href="https://www.python.org/doc/essays/blurb/" target="_blank">Python.org</a></p>
+        </div>
+
+        <div class="content-section">
+            <h2>Para que serve Python?</h2>
+            <p>Python é uma linguagem extremamente versátil com aplicações em diversas áreas:</p>
+            <ul>
+                <li><strong>Desenvolvimento Web:</strong> Com frameworks como Django e Flask</li>
+                <li><strong>Ciência de Dados:</strong> Bibliotecas como Pandas, NumPy e Matplotlib</li>
+                <li><strong>Machine Learning e IA:</strong> TensorFlow, PyTorch, scikit-learn</li>
+                <li><strong>Automação de tarefas:</strong> Scripts para automatizar processos repetitivos</li>
+                <li><strong>Desenvolvimento de Jogos:</strong> Com PyGame e outras bibliotecas</li>
+                <li><strong>Aplicações Desktop:</strong> Usando Tkinter, PyQt ou Kivy</li>
+            </ul>
+            
+            <div class="highlight">
+                <p>Um exemplo simples em Python:</p>
+                <div class="code">
+                    <pre># Exemplo de código Python
+def saudacao(nome):
+    return f"Olá, {nome}! Bem-vindo ao mundo Python."
+
+print(saudacao("Maria"))</pre>
+                </div>
+            </div>
+            
+            <p class="source">Fonte: <a href="https://realpython.com/what-can-i-do-with-python/" target="_blank">Real Python</a></p>
+        </div>
+
+        <div class="content-section">
+            <h2>Vantagens de usar Python na vida profissional</h2>
+            <p>Python oferece diversas vantagens para profissionais de tecnologia:</p>
+            <ol>
+                <li><strong>Alta demanda no mercado:</strong> Uma das linguagens mais requisitadas atualmente</li>
+                <li><strong>Grande comunidade:</strong> Suporte abundante e muitos recursos disponíveis</li>
+                <li><strong>Fácil aprendizado:</strong> Sintaxe simples e intuitiva</li>
+                <li><strong>Versatilidade:</strong> Pode ser usado em diversas áreas da tecnologia</li>
+                <li><strong>Produtividade:</strong> Desenvolvimento mais rápido comparado a outras linguagens</li>
+                <li><strong>Bibliotecas abundantes:</strong> Soluções prontas para quase qualquer problema</li>
+                <li><strong>Boa remuneração:</strong> Profissionais Python costumam ter salários competitivos</li>
+            </ol>
+            
+            <p class="source">Fonte: <a href="https://www.tiobe.com/tiobe-index/" target="_blank">TIOBE Index</a>, <a href="https://stackoverflow.com/jobs/salary" target="_blank">Stack Overflow Salary Calculator</a></p>
+        </div>
+
+        <div class="content-section">
+            <h2>O que é POO (Programação Orientada a Objetos)?</h2>
+            <p>Programação Orientada a Objetos (POO) é um paradigma de programação baseado no conceito de "objetos", que podem conter dados na forma de campos (atributos) e códigos na forma de procedimentos (métodos).</p>
+            
+            <p>Os quatro pilares principais da POO são:</p>
+            <ul>
+                <li><strong>Abstração:</strong> Modelar classes que representam conceitos do mundo real</li>
+                <li><strong>Encapsulamento:</strong> Esconder detalhes de implementação e proteger dados</li>
+                <li><strong>Herança:</strong> Criar novas classes baseadas em classes existentes</li>
+                <li><strong>Polimorfismo:</strong> Capacidade de objetos responderem de formas diferentes à mesma mensagem</li>
+            </ul>
+            
+            <div class="highlight">
+                <p>Exemplo de POO em Python:</p>
+                <div class="code">
+                    <pre>class Animal:
+    def __init__(self, nome):
+        self.nome = nome
+    
+    def fazer_som(self):
+        pass
+
+class Cachorro(Animal):
+    def fazer_som(self):
+        return "Au au!"
+
+meu_pet = Cachorro("Rex")
+print(meu_pet.fazer_som())  # Saída: Au au!</pre>
+                </div>
+            </div>
+            
+            <p class="source">Fonte: <a href="https://docs.python.org/3/tutorial/classes.html" target="_blank">Python Documentation</a></p>
+        </div>
+
+        <div class="content-section">
+            <h2>Qual a vantagem de utilizar o POO?</h2>
+            <p>A Programação Orientada a Objetos oferece diversas vantagens:</p>
+            <ol>
+                <li><strong>Organização do código:</strong> Estrutura mais clara e modular</li>
+                <li><strong>Reutilização de código:</strong> Através de herança e composição</li>
+                <li><strong>Manutenibilidade:</strong> Mais fácil de manter e atualizar</li>
+                <li><strong>Escalabilidade:</strong> Melhor adaptação a projetos grandes</li>
+                <li><strong>Modelagem mais próxima do mundo real:</strong> Facilita a compreensão</li>
+                <li><strong>Segurança:</strong> Encapsulamento protege os dados internos</li>
+                <li><strong>Trabalho em equipe:</strong> Divisão de tarefas mais eficiente</li>
+            </ol>
+            
+            <div class="highlight">
+                <p>Segundo Steve Jobs: "Everything in programming is an object. It's objects all the way down."</p>
+            </div>
+            
+            <p class="source">Fonte: <a href="https://www.geeksforgeeks.org/advantages-and-disadvantages-of-oop/" target="_blank">GeeksforGeeks</a></p>
+        </div>
+
+        <div class="content-section">
+            <h2>Sobre esta demonstração</h2>
+            <p>Este site é uma demonstração prática da integração entre:</p>
+            <ul>
+                <li><strong>Frontend:</strong> HTML e CSS para estrutura e estilo</li>
+                <li><strong>Backend:</strong> Python com Flask para processamento</li>
+                <li><strong>Hospedagem:</strong> Render.com para disponibilização online</li>
+            </ul>
+            
+            <p>O formulário no topo da página demonstra a comunicação entre o cliente (navegador) e o servidor (Python). Quando você envia seu nome, ele é processado pelo Flask e retornado para exibição na página.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Pesquisa sobre Python e Hospedagem Web - Atividade Prática</p>
+            <p>Hospedado no Render.com | Desenvolvido com Flask e Python</p>
+        </div>
+    </footer>
+</body>
+</html>
